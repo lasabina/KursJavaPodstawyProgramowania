@@ -1,4 +1,4 @@
-package pl.sda.zdjavapol75.zaawansowana.dziedziczenie.samochod;
+package kursZaawansowany.dziedziczenie.samochod;
 
 public class Main {
     public static void main(String[] args) {
