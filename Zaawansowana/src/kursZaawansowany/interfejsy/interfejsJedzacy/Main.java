@@ -23,8 +23,8 @@ public class Main {
                 indeksMaxPosilkow = i;
             }
         }
-        System.out.println("Najwięcej posiłków zjadł:" + istotyJedzace[indeksMaxPosilkow] + ".");
 
+        System.out.println("Najwięcej posiłków zjadł:" + istotyJedzace[indeksMaxPosilkow] + ".");
         int maxGramow = 0;
         int indeksMaxGramow = -1;
         for (int i = 0; i < istotyJedzace.length; i++) {
