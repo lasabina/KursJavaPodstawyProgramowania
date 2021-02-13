@@ -4,6 +4,11 @@ public class Klimatyzacja extends Urzadzenie implements IChlodzi, IGrzeje {
 
     double temperatura;
 
+    @Override
+    public void wyswietlTemp() {
+        System.out.println("Aktualna temperatura w pomieszczeniu wynosi"+this.pobierzTemp()+" stopni Celcjusza.");
+    }
+
     public Klimatyzacja(double temperatura) {
         super(temperatura);
     }
@@ -16,13 +21,13 @@ public class Klimatyzacja extends Urzadzenie implements IChlodzi, IGrzeje {
     @Override
     public void schlodz() {
         temperatura -= 1;
-        System.out.println("Schłodzono o 1 stopień.");
+        System.out.println("W pomieszczeniu z klimatyzacją schłodzono temperaturę o 1 stopień.");
     }
 
     @Override
     public void zwiekszTemp() {
         temperatura += 1;
-        System.out.println("Zwiększono temperaturę o 1 stopień.");
+        System.out.println("W pomieszczeniu z klimatyzacją zwiększono temperaturę o 1 stopień.");
     }
 
     @Override

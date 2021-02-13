@@ -16,7 +16,7 @@ public class Wiatrak extends Urzadzenie implements IChlodzi {
     @Override
     public void schlodz() {
         temperatura -= 1;
-        System.out.println("Schłodzono o 1 stopień.");
+        System.out.println("W pomieszczeniu z wiatrakiem schłodzono temperaturę o 1 stopień.");
     }
 
     @Override

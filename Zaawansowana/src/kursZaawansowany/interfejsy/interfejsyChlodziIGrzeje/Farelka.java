@@ -16,7 +16,7 @@ public class Farelka extends Urzadzenie implements IGrzeje  {
     @Override
     public void zwiekszTemp() {
         temperatura += 1;
-        System.out.println("Zwiększono temperaturę o 1 stopień.");
+        System.out.println("W pomieszczeniu z klimatyzacją zwiększono temperaturę o 1 stopień.");
     }
 
     @Override
